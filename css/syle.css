@@ -15,15 +15,35 @@ img{
 
 body{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
-body>.container{
+body>.container.row{
     flex-grow: 1;
 }
 
 aside.player-music{
     height: auto;
     flex-shrink: 0;
+}
+
+header.main-header{
+    width: 230px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+main.content{
+    flex-grow: 1;
+    overflow: auto;
+}
+
+/**row***/
+
+.row{
+    display: flex;
+}
+
+.row-column{
+    display: flex;
+    flex-direction: column;
 }
