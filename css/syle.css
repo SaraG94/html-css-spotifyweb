@@ -13,6 +13,7 @@ img{
     max-width: 100%;
 }
 
+/***struttura***/
 body{
     height: 100vh;
 }
@@ -35,10 +36,16 @@ header.main-header{
 main.content{
     flex-grow: 1;
     overflow: auto;
+
 }
 
-/**row***/
+.debug{
+    border: 1px solid rgb(217, 180, 13);
+    padding: 30px;
+}
+/********/
 
+/**row***/
 .row{
     display: flex;
 }
@@ -46,4 +53,12 @@ main.content{
 .row-column{
     display: flex;
     flex-direction: column;
+}
+/********/
+
+/**mediaquery**/
+@media screen and (max-width: 551px) {
+    header.main-header{
+        width: 50px;
+    }
 }
