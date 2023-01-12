@@ -8,15 +8,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;800&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2cbecd44b4.js" crossorigin="anonymous"></script>
     <title>Spotify</title>
 </head>
 <body class="row-column">
     <div class="container row">
-        <header class="main-header debug"></header>
-        <main class="content debug"></main>
+        <header class="main-header"></header>
+        <main class="content"></main>
     </div>
-    <aside class="player-music debug">
-
+    <aside class="player-music">
+        <div class="row">
+            <div class="col album-option row">
+                
+                <figure class="album-played">
+                    <img src="./img/sinister.jpeg" alt="sinister-album">
+                </figure>
+                <div class="album-text">
+                    <h4 class="album-text__title">Sinister</h4>
+                    <p class="song-name">Brano nome</p>
+                </div>
+                
+                <div class="album-icone">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+            </div>
+            <div class="col player  debug"></div>
+            <div class="col volume-option  debug"></div>
+        </div>
     </aside>
 </body>
 </html>
