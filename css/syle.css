@@ -62,6 +62,9 @@ main.content{
     display: flex;
     flex-direction: column;
 }
+.col-30{
+    flex-basis: 30%;
+}
 
 .col-50{
     flex-basis: 50%;
