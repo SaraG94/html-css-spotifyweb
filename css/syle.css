@@ -63,8 +63,8 @@ main.content{
     flex-direction: column;
 }
 
-.col-30{
-    flex-basis: 30%;
+.col-50{
+    flex-basis: 50%;
 }
 /********/
 
@@ -148,6 +148,17 @@ main.content{
     gap:20px;
     align-items: center;
     justify-content: flex-end;
+}
+
+.volume-option__icone{
+    gap: 20px;
+    display: flex;
+    margin-right: -5px;
+}
+
+.col-50.volume{
+    align-items: center;
+    gap:10px;
 }
 
 progress.sound{
