@@ -1,3 +1,9 @@
+:root{
+    --dark-blue:#141922;
+    --black:#000000;
+    --grey-text:#DEDAD5;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -29,18 +35,20 @@ body>.container.row{
 aside.player-music{
     height: auto;
     flex-shrink: 0;
+    background-color: #282828;
 }
 
 header.main-header{
     width: 230px;
     flex-shrink: 0;
     overflow: hidden;
+    background-color: var(--black);
 }
 
 main.content{
     flex-grow: 1;
     overflow: auto;
-
+    background-color: var(--dark-blue);
 }
 
 /********/
@@ -70,7 +78,6 @@ main.content{
 
 /****aside***/
 .player-music{
-    background-color: #282828;
     color:white;
     padding: 10px 10px 20px 10px; 
 }
