@@ -32,12 +32,7 @@ body{
 
 body>.container.row{
     flex-grow: 1;
-}
-
-aside.player-music{
-    height: auto;
-    flex-shrink: 0;
-    background-color: #282828;
+    overflow: hidden;
 }
 
 header.main-header{
@@ -50,10 +45,15 @@ header.main-header{
 
 main.content{
     flex-grow: 1;
-    overflow: auto;
+    overflow-y: auto;
     background-color: var(--dark-blue);
 }
 
+aside.player-music{
+    height: auto;
+    flex-shrink: 0;
+    background-color: #282828;
+}
 /********/
 
 /**row e column***/
