@@ -3,6 +3,7 @@
     --black:#000000;
     --grey-text:#7D7F84;
     --grey:#A3A3A3;
+    --green:#ADFF2F;
 }
 
 *{
@@ -44,6 +45,7 @@ header.main-header{
     flex-shrink: 0;
     overflow: hidden;
     background-color: var(--black);
+    color:white;
 }
 
 main.content{
@@ -187,7 +189,7 @@ progress.sound{
 
 /****main header***/
 .menu-logo{
-    padding: 20px;
+    padding: 20px 0 25px 21px;
 }
 
 img.little-logo{
@@ -198,8 +200,55 @@ img.little-logo{
     max-width: 135px;
 }
 
+.home,
+.search,
+.library,
+.add-playlist,
+.your-playlist>li,
+.dowload-app{
+    filter: opacity(0.5);
+    align-items: center;
+    gap:9px;
+    border-left: 3px solid black;
+    padding: 6px 20px;
+}
+
 .menu-nav__img{
     max-width: 24px;
+}
+
+.playlist__title{
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.add-playlist>i{
+font-size: 2rem;
+}
+
+.dowload-icone{
+    max-width: 12px;
+}
+.profile::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 190px;
+    margin: 0 20px;
+    background-color: #D3D3D6;
     filter: opacity(0.5);
+}
+.my-profile{
+    align-items: center;
+    gap:9px;
+    padding: 6px 20px;
+}
+.photo-profile{
+    max-width: 28px;
+    background-color: gray;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
 }
 /****fine main header***/

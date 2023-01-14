@@ -13,7 +13,7 @@
 </head>
 <body class="row-column">
     <div class="container row">
-        <header class="main-header row-colum">
+        <header class="main-header row-column">
             <div class="menu-logo">
                  <!--da visualizzare solo su mobile-->
                 <img class="little-logo" src="./img/logo-small.svg" alt="little-logo">
@@ -22,41 +22,45 @@
             </div>
             <div class="nav">
                 <ul class="menu-nav">
-                    <li class="home">
+                    <li class="home row">
                         <img class="menu-nav__img" src="./img/home.svg" alt="homeicone">
+                        <p>Home</p>
                     </li>
-                    <li class="search">
+                    <li class="search row">
                         <img class="menu-nav__img" src="./img/search.svg" alt="searchicone">
+                        <p>Cerca</p>
                     </li>
-                    <li class="library">
+                    <li class="library row">
                         <img class="menu-nav__img" src="./img/libreria.svg" alt="libraryicone">
+                        <p>La tua libreria</p>
                     </li>
                 </ul>
             </div>
-            <div class="playlist ">
-                <h4 class=""></h4>
-                <button class="add-playlist">
-                    <!--img/i-->
-                    <p></p>
-                </button>
-                <ul class="playlist">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div class="playlist">
+                <h4 class="playlist__title">playlist</h4>
+                <div class="add-playlist row">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <p>Crea Playlist</p>
+                </div>
+                <ul class="your-playlist">
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
                 </ul>
             </div>
-            <div class="dowload-app">
-                <button>
-                    <i></i>
-                </button>
+            <div class="dowload-app row">
+              <img class="dowload-icone" src="./img/download.svg" alt="dowload-arrow">
+              <p>Installa app</p>
             </div>
-            <div class="profile">
-                <img src="" alt="photo-profile">
-                <p></p>
+            <div class="profile row-column">
+                <div class="my-profile row">
+                    <img class="photo-profile" src="./img/profile.svg" alt="photo-profile">
+                    <h4>John Doe</h4>
+                </div>
             </div>
         </header>
         <main class="content"></main>
@@ -82,7 +86,7 @@
                 <div class="row player-button">
                     <i class="fa-solid fa-shuffle"></i>
                     <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-regular fa-circle-play"></i>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-rotate-right"></i>
                 </div>
