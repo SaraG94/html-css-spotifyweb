@@ -297,3 +297,13 @@ font-size: 2rem;
     }    
 }
 /****fine mediaquery main header***/
+
+/********content structure********/
+main.content .content-header{
+    min-height: 90px;
+}
+
+main.content .content-app{
+    flex-grow: 1;
+}
+/**** fine content structure*****/
