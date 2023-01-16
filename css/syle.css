@@ -1,6 +1,6 @@
 :root{
-    --dark-blue:rgb(20, 25, 34);
-    --dark-blue-opacity:#080B12;
+    --dark-blue:#141922;
+    --light-black:#080B12;
     --black:#000000;
     --grey-text:#7D7F84;
     --grey:#A3A3A3;
@@ -142,7 +142,6 @@ aside.player-music{
 
 .progress{
     width: 100%;
-    height: 4px;
     background: #5A5A5A;
     border-radius: 2px;
 }
@@ -311,7 +310,8 @@ main.content .content-header{
     min-height: 90px;
     align-items: center;
     justify-content: flex-end;
-    background-color: var(--dark-blue-opacity);
+    background-color: var(--light-black);
+    /* background-color: #1419228a;*/
 }
 
 main.content .content-app{
