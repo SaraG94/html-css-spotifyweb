@@ -430,6 +430,10 @@ button.upgrade{
 /******fine section create-for********/
 
 /****************artisti**************/
+section.popular-performer{
+    margin-bottom: 30px;
+}
+
 .popular-performer__text{
     padding: 30px 0;
 }
