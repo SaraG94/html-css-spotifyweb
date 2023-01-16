@@ -104,7 +104,7 @@ aside.player-music{
     width: 50px;
 }
 
-.album-text{
+.album-option .album-text{
     font-size: 11px;
     padding: 0 28px 0 10px;
 }
@@ -359,3 +359,37 @@ button.upgrade{
     text-transform: uppercase;
     filter: opacity(0.5);
 }
+/******fine menu prodotti********/
+
+/******section recently play********/
+.content-song{
+    padding: 0 30px 0 20px;
+}
+
+.recently-played__title{
+    padding: 40px 0 28px 0;
+}
+
+.recently{
+    gap: 15px;
+}
+
+.col-album{
+    flex-basis: calc( (100% -90px) /6);
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.album__title{
+    text-align: center;
+}
+
+.album__title h4.title{
+    margin-bottom: 10px;
+}
+
+.album__title .subtitle{
+    color: var(--grey-text);
+}
+/******fine section recently play********/
