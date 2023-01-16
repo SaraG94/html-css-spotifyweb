@@ -96,6 +96,7 @@ aside.player-music{
 
 .col.album-option{
     align-items: center;
+    max-width: 230px;
 }
 
 .album-played img{
@@ -114,6 +115,7 @@ aside.player-music{
 .album-icone>i{
     padding: 0 7px;
     color: #878787;
+    font-size: 16px;
 }
 
 /**player**/
@@ -125,6 +127,11 @@ aside.player-music{
     gap:22px;
     align-items: center;
     justify-content: center;
+}
+
+.player-button i.play-song{
+    font-size: 30px;
+    padding: 0px 8px;
 }
 
 .row.player-bar{
