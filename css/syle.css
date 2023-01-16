@@ -371,7 +371,8 @@ button.upgrade{
 }
 
 .recently,
-.suggest-album{
+.suggest-album,
+.performers{
     gap: 15px;
 }
 
@@ -384,11 +385,13 @@ button.upgrade{
     text-align: center;
 }
 
-.album__title h4.title{
+.album__title h4.title,
+.popular-performer__title{
     margin-bottom: 10px;
 }
 
-.album__title .subtitle{
+.album__title .subtitle,
+.popular-performer__subtitle{
     color: var(--grey-text);
 }
 
@@ -425,3 +428,20 @@ button.upgrade{
     color:var(--grey-text);
 }
 /******fine section create-for********/
+
+/****************artisti**************/
+.popular-performer__text{
+    padding: 30px 0;
+}
+
+.performer_album__img img{
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.performer_album__title{
+    text-align: center;
+}
+/**********fine artisti***************/
