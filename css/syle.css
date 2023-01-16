@@ -370,7 +370,8 @@ button.upgrade{
     padding: 40px 0 28px 0;
 }
 
-.recently{
+.recently,
+.suggest-album{
     gap: 15px;
 }
 
@@ -413,3 +414,14 @@ button.upgrade{
     }
 }
 /******fine section recently play********/
+
+/******section Create-for********/
+.creat-for__text{
+    padding: 45px 0 30px;
+}
+
+.creat-for__subtitle{
+    margin-top: 10px;
+    color:var(--grey-text);
+}
+/******fine section create-for********/
