@@ -354,6 +354,7 @@ button.upgrade{
 
 .product-types .category{
     padding: 6px 0;
+    margin-top: 22px;
     font-weight: bold;
     text-transform: uppercase;
     filter: opacity(0.5);
