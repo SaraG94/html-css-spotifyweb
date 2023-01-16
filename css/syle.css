@@ -376,8 +376,6 @@ button.upgrade{
 
 .col-album{
     flex-basis: calc( (100% -90px) /6);
-    flex-direction: column;
-    display: flex;
     gap: 20px;
 }
 
@@ -391,5 +389,18 @@ button.upgrade{
 
 .album__title .subtitle{
     color: var(--grey-text);
+}
+
+@media screen and (max-width: 878px) {
+    .recently{
+        flex-wrap: wrap;
+        gap:15px;
+        /*gap:0*/
+    }
+
+    .col-album{
+        flex-basis: calc( (100% -60px) /4);
+        /*padding-right: 15px;*/
+    }
 }
 /******fine section recently play********/
