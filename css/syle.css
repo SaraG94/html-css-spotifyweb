@@ -401,4 +401,15 @@ button.upgrade{
         flex-basis: calc( (100% /4) - (60px /4))
     }
 }
+
+@media screen and (max-width: 639px) {
+    .recently{
+        flex-wrap: wrap;
+        gap:15px;
+    }
+
+    .col-album{
+        flex-basis: calc( (100% /2) - (30px /2))
+    }
+}
 /******fine section recently play********/
