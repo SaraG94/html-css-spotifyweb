@@ -212,11 +212,16 @@ img.little-logo{
 .search,
 .library,
 .add-playlist,
-.your-playlist>li,
 .dowload-app{
     filter: opacity(0.5);
     align-items: center;
     gap:9px;
+    border-left: 3px solid black;
+    padding: 6px 20px;
+}
+
+.your-playlist>li{
+    filter: opacity(0.5);
     border-left: 3px solid black;
     padding: 6px 20px;
 }
