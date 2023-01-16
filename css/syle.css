@@ -48,6 +48,7 @@ main.content{
     flex-grow: 1;
     overflow-y: auto;
     background-color: var(--dark-blue);
+    color: white;
 }
 
 aside.player-music{
@@ -185,6 +186,7 @@ progress.sound{
     .album-icone{
         display: flex;
         flex-direction: column;
+        gap: 10px;
     }
 }
 @media screen and (max-width: 553px) {
@@ -319,7 +321,7 @@ main.content .content-header{
     /* background-color: #1419228a;*/
 }
 
-main.content .content-app{
+main.content .content-song{
     flex-grow: 1;
 }
 /**** fine content structure*****/
@@ -336,3 +338,23 @@ button.upgrade{
     margin-right: 5px;
 }
 /****fine content-header*****/
+
+/*********menu prodotti**********/
+.product-menu{
+    align-items: center;
+    justify-content: center;
+}
+
+.product-types{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.product-types .category{
+    padding: 6px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    filter: opacity(0.5);
+}
