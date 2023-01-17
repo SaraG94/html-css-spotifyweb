@@ -314,6 +314,8 @@ main.content .content-header{
     justify-content: flex-end;
     background-color: var(--light-black);
     /* background-color: #1419228a;*/
+    position: sticky;
+    top: 0;
 }
 
 main.content .content-song{
@@ -377,8 +379,7 @@ button.upgrade{
     text-align: center;
 }
 
-.album__subtitle,
-.popular-performer__subtitle{
+.album__subtitle{
     color: var(--grey-text);
 }
 
@@ -410,7 +411,8 @@ button.upgrade{
     padding: 45px 0 30px;
 }
 
-.creat-for__subtitle{
+.creat-for__subtitle,
+.popular-performer__subtitle{
     margin-top: 10px;
     color:var(--grey-text);
 }
