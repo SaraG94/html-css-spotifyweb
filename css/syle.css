@@ -143,15 +143,24 @@ aside.player-music{
 
 .progress{
     width: 100%;
-    background: #5A5A5A;
+    background-color: #5A5A5A;
     border-radius: 2px;
+    position: relative;
 }
 
 .progress-bar{
     width: 20%;
     height: 4px;
-    background: #C1C1C1;
+    background-color: #C1C1C1;
     border-radius: 2px;
+}
+
+i.circle{
+    display: none;
+    position: absolute;
+    top: -4px;
+    left: 19%;
+    font-size: 13px;
 }
 /**volume**/
 .volume-option{
@@ -494,5 +503,28 @@ button.upgrade:hover{
 }
 
 .col-album:hover .play-album{
+    display: block;
+}
+
+/**hover aside**/
+
+.album-text:hover p.song-name{
+    color:white;
+    text-decoration: underline;
+}
+
+.album-icone i:hover{
+    color: white;
+}
+
+.player-button .play-song:hover{
+    transform: scale(1.1);
+}
+
+.progress-bar:hover{
+    background-color: var(--green);
+}
+
+.progress-bar:hover+.circle{
     display: block;
 }
