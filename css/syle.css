@@ -311,7 +311,8 @@ font-size: 2rem;
 main.content .content-header{
     min-height: 90px;
     align-items: center;
-    justify-content: flex-end;    
+    justify-content: flex-end;
+    padding-right: 10px;    
     background-color: #08080ac2;
     position: sticky;
     top: 0;
@@ -443,4 +444,9 @@ section.popular-performer{
 .dowload-app:hover{
     filter: opacity(1); 
     border-left: 3px solid var(--green);
+}
+
+
+button.upgrade:hover{
+    transform: scale(1.1);
 }
