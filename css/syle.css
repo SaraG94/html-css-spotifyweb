@@ -325,6 +325,7 @@ main.content .content-header{
     background-color: #08080ac2;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 main.content .content-song{
@@ -529,6 +530,7 @@ button.upgrade:hover{
     display: block;
 }
 
+/**Seconda soluzione circle hover**/
 .sound .progress-bar::after{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
