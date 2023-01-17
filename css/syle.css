@@ -434,3 +434,13 @@ section.popular-performer{
 }
 
 /**********fine artisti***************/
+
+/***************hover**************/
+
+.add-playlist:hover,
+.menu-nav>li:hover,
+.your-playlist>li:hover,
+.dowload-app:hover{
+    filter: opacity(1); 
+    border-left: 3px solid var(--green);
+}
