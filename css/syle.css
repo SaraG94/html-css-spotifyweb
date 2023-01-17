@@ -347,6 +347,7 @@ button.upgrade{
     align-items: center;
     justify-content: center;
     gap: 24px;
+    position: relative;
 }
 
 .product-types .category{
@@ -355,6 +356,18 @@ button.upgrade{
     font-weight: bold;
     text-transform: uppercase;
     filter: opacity(0.5);
+}
+
+.category::after{
+    content: '';   
+    height: 3px;    
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,-50%);    
+    background-color: var(--green);
+    display: none;
 }
 /******fine menu prodotti********/
 
@@ -378,6 +391,7 @@ button.upgrade{
     gap: 20px;
     text-align: center;
 }
+
 .album__img,
 .performer_album__img{
     position: relative;
@@ -465,6 +479,16 @@ button.upgrade:hover{
     transform: scale(1.1);
 }
 
+/***hover menu*/
+.category:hover{
+    filter: opacity(1);
+}
+
+.category:hover.category::after{
+    display: block;
+}
+
+/***hover album***/
 .col-album:hover img{
     opacity: 60%;
 }
