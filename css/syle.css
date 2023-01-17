@@ -518,7 +518,7 @@ button.upgrade:hover{
 }
 
 .player-button .play-song:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .progress-bar:hover{
@@ -526,5 +526,20 @@ button.upgrade:hover{
 }
 
 .progress-bar:hover+.circle{
+    display: block;
+}
+
+.sound .progress-bar::after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f111";
+    font-size: 11px;
+    position: absolute;
+    top: -3px;
+    left: 20%;
+    display: none;
+}
+
+.sound .progress-bar:hover::after{
     display: block;
 }
