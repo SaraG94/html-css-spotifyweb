@@ -210,9 +210,7 @@ img.little-logo{
     max-width: 135px;
 }
 
-.home,
-.search,
-.library,
+.menu-nav>li,
 .add-playlist,
 .dowload-app{
     filter: opacity(0.5);
@@ -245,7 +243,7 @@ font-size: 2rem;
 }
 
 .dowload-icone{
-    max-width: 12px;
+    max-width: 15px;  
 }
 .profile::before{
     content: '';
@@ -286,11 +284,7 @@ font-size: 2rem;
     }
 
     .menu-nav>li{
-        padding: 15px 18px;
-    }
-
-    .menu-nav__img{
-        scale:3;
+        padding: 6px 10px;
     }
 
     .menu-nav p.menu-nav__text,
@@ -302,13 +296,14 @@ font-size: 2rem;
     }
 
     .dowload-app{
-        padding: 12px 15px;
-        scale:2;
+        padding: 6px 14px;
     }
-    img.photo-profile{
-        scale: 3;
-        margin: 12px 0;
-    }    
+
+    .my-profile{
+        justify-content: center;
+        gap:0;
+        padding: 5px 0;        
+    } 
 }
 /****fine mediaquery main header***/
 
