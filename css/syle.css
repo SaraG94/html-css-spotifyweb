@@ -378,6 +378,20 @@ button.upgrade{
     gap: 20px;
     text-align: center;
 }
+.album__img,
+.performer_album__img{
+    position: relative;
+}
+
+.album__img .play-album,
+.performer_album__img .play-album{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    display: none;
+}
 
 .album__subtitle{
     color: var(--grey-text);
@@ -449,4 +463,12 @@ section.popular-performer{
 
 button.upgrade:hover{
     transform: scale(1.1);
+}
+
+.col-album:hover img{
+    opacity: 60%;
+}
+
+.col-album:hover .play-album{
+    display: block;
 }
